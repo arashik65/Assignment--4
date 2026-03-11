@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Tracker</title>
+
+    <!-- fav icon add -->
+     <link rel="shortcut icon" href="jobs.png" type="image/x-icon">
+    
+    <!-- tailwind class link add -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--  font awesome cdn  icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+         font-family: "Geist", sans-serif;
+        
+        }
+    </style>
+  </head>
+<body class="bg-[#F8FAFC]">
+    <!-- job appication part design -->
+    <header class="w-[80%] mx-auto">
+        <h1 class="mb-5 mt-9 font-bold text-[002C5C] text-[36px] ">Job Application Tracker</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <!-- total job count part design -->
+            <div class="bg-[#FFFFFF] cursor-pointer p-5 rounded-[8px]">
+                <p class="text-[#323B49] font-medium text-[14px]">Total</p>
+                <p id="total" class="text-[#002C5C] font-bold">0</p>
+            </div>
+             <!-- total interview count part section -->
+            <div class="bg-[#FFFFFF] cursor-pointer p-5 rounded-[8px]">
+                <p class="text-[#323B49] font-medium text-[14px]">Interview</p>
+                <p id="interview" class="text-[#10B981] font-bold">0</p>
+            </div>
+             <!-- total rejected count part section -->
+            <div class="bg-[#FFFFFF] cursor-pointer p-5 rounded-[8px]">
+                <p class="text-[#323B49] font-medium text-[14px]">Rejected</p>
+                <p id="rejected" class="text-[#EF4444] font-bold">0</p>
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </header>
+</body>
+</html>
