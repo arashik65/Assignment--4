@@ -46,14 +46,45 @@
             <div class="bg-[#FFFFFF] cursor-pointer p-5 rounded-[8px]">
                 <p class="text-[#323B49] font-medium text-[14px]">Rejected</p>
                 <p id="rejected" class="text-[#EF4444] font-bold">0</p>
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
+            </div> 
         </div>
-    </header>
+     </header>
+    <!-- Available Jobs part -->
+     <main class="w-[80%] mx-auto">
+       <div class="flex justify-between items-center mb-6 mt-6">
+          <h1 class="font-semibold text-[#002C5C] text-[20px]">Available Jobs</h1>
+          <h1 class="avaible jobs">8 jobs</h1>
+       </div> 
+     <!-- Available 3 button    -->
+ <div class="flex gap-3 ">
+        <button id="All-btn" 
+         onclick="switchTab('All')"
+          class="bg-[#FFFFFF] 
+                 text-[#64748B]
+                 text-[12px] 
+                 py-[10px] px-8
+                 border border-[#E6E7E9]
+                 rounded-[4px] cursor-pointer"
+                 >All</button>
+
+        <button  
+           id="Interview-btn" 
+            onclick="switchTab('Interview')" 
+            class="bg-[#FFFFFF] rounded-[4px] text-[#64748B] font-medium text-[12px] py-[10px] px-3 border border-[#E6E7E9] cursor-pointer" >Interview
+         </button>
+
+        <button
+         id="Rejected-btn" 
+         onclick="switchTab('Rejected')"
+         class=" bg-[#FFFFFF] rounded-[4px] text-[#64748B] font-medium text-[12px] py-[10px] px-3 border border-[#E6E7E9] cursor-pointer" >Rejected
+      </button>
+
+ </div>
+
+
+     </main>
+
+
+
 </body>
 </html>
